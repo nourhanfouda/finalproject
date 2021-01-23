@@ -9,4 +9,9 @@ class Style {
   static TextStyle doctorname = TextStyle(fontSize: 15, color: Colors.black87);
   static TextStyle clinicname = TextStyle(
       fontSize: 18, color: Colors.black87, fontWeight: FontWeight.bold);
+  static TextStyle generalstyle = TextStyle(
+      fontSize: 20,
+      color: Colors.black87,
+      fontWeight: FontWeight.bold,
+      fontStyle: FontStyle.italic);
 }

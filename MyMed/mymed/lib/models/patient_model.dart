@@ -1,4 +1,6 @@
-class PatientModel {
+import 'package:mymed/models/person_model.dart';
+
+class PatientModel extends Personmodel {
   int id;
   String name;
   String email;

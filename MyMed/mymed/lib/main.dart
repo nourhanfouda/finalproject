@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:localize_and_translate/localize_and_translate.dart';
-import 'package:mymed/screens/11makeAppoinment.dart';
+import 'package:mymed/screens/1splash.dart';
+import 'package:mymed/wedgits/chooseappoinmentwedgit.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'MyMed',
-      home: MakeAppoinment(),
+      home: Splash(),
       localizationsDelegates: translator.delegates, // Android + iOS Delegates
       locale: translator.locale, // Active locale
       supportedLocales: translator.locals(), // Locals list

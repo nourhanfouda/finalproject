@@ -1,11 +1,10 @@
-class DoctorModel {
-  int id;
-  String name;
-  String email;
-  String password;
-  String imgUrl;
-  int mobile;
+import 'package:mymed/models/person_model.dart';
 
+class DoctorModel extends Personmodel {
+  int id;
+  String clinicname;
   String spicalist;
   int status;
+
+  DoctorModel({this.id, this.clinicname, this.spicalist, this.status = 0});
 }
